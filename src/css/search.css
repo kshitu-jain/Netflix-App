@@ -1,0 +1,28 @@
+.browse-page {
+  background-image: linear-gradient(rgba(54, 0, 14, 0.807), rgba(0, 0, 0, 0.854)),
+    url("./bg-image.jpg");
+  height: 815px;
+  background-size: 119%;
+  background-position: bottom;
+}
+
+.netflix-logo2 {
+  height: 50px;
+  /* width: 100px; */
+}
+
+.wrapper {
+  max-height: 220px;
+  display: flex;
+  overflow-x: auto;
+}
+.wrapper::-webkit-scrollbar {
+  width: 0;
+}
+.wrapper .item {
+  min-width: 299px;
+  height: 168px;
+  line-height: 110px;
+  background-color: rgb(94, 94, 94);
+  margin-right: 10px;
+}

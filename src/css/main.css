@@ -1,0 +1,241 @@
+* {
+  box-sizing: border-box;
+  margin: 0%;
+}
+.background {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.702), rgba(0, 0, 0, 0.803)),
+    url("./main-image.jpg");
+  height: 715px;
+  background-size: 119%;
+  background-position: bottom;
+}
+.netflix-logo {
+  height: 62px;
+  /* width: 70px; */
+}
+.email-color {
+  background-color: rgba(29, 28, 28, 0.56);
+}
+.netflix-colour {
+  color: red;
+}
+.get-colour {
+  background-color: red !important;
+}
+.section-1 {
+  height: 575px;
+}
+.section-2 {
+  height: 575px;
+}
+
+.TV-images {
+  height: 430px;
+  position: relative;
+  z-index: 1;
+}
+.tv-section {
+  position: relative;
+}
+.tv-section > video {
+  position: absolute;
+  height: 60%;
+  left: 71px;
+  bottom: 90px;
+}
+.desktop-images {
+  position: relative;
+}
+.desktop-images > img {
+  height: 430px;
+  position: relative;
+  z-index: 1;
+}
+.desktop-images > video {
+  position: absolute;
+  height: 78%;
+  width: 61%;
+  left: 110px;
+  bottom: 120px;
+}
+
+.net-line {
+  height: 8px;
+}
+.mobile-images {
+  height: 420px;
+  width: 600px;
+}
+.section-4 {
+  height: 530px;
+}
+.section-5 {
+  height: 510px;
+}
+.FAQ {
+  /* width: 1150px; */
+  height: 81px;
+}
+.que-width:hover {
+  background-color: rgb(69, 69, 69) !important;
+  transform: scale(1.001); /*zoom effect*/
+}
+
+.que-width {
+  width: 1180px;
+  height: 80px !important;
+  transition: transform 0.5s; /*smooth animation*/
+}
+.add-icon {
+  color: white !important;
+  font-size: 40px !important;
+}
+
+.width-email {
+  width: 380px !important;
+}
+
+.footer-height {
+  height: 600px;
+}
+
+.footer2-height {
+  height: 480px;
+}
+.text-color {
+  color: rgb(198, 195, 195);
+}
+.collapse-width {
+  width: 1180px;
+  height: 310px;
+}
+.collapse2-width {
+  width: 1180px;
+  height: 180px;
+}
+.collapse3-width {
+  width: 1180px;
+  height: 350px;
+}
+.globe-icon {
+  position: absolute;
+  top: 22px;
+  right: 390px;
+  color: white;
+}
+.button-icon {
+  position: relative;
+}
+.links {
+  position: relative;
+}
+@media screen and (max-width: 576px) {
+  .background {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.613), rgba(0, 0, 0, 0.72)),
+      url("./bg-image.jpg");
+    height: 490px;
+    background-size: 300%;
+    background-position: bottom;
+    width: 100% !important;
+  }
+  .email-color {
+    background-color: rgba(29, 28, 28, 0.56);
+  }
+  .net-font-size {
+    font-size: 19px;
+  }
+  .netflix-logo {
+    height: 45px;
+    width: 105px;
+    padding-top: 20px !important;
+  }
+
+  .collapse-width {
+    width: 340px;
+    height: 450px;
+  }
+  .que-width {
+    width: 340px;
+    height: 77px !important;
+    transition: transform 0.5s; /*smooth animation*/
+    font-size: 18px;
+  }
+  .add-icon {
+    color: white !important;
+    font-size: 20px !important;
+  }
+  .collapse2-width {
+    width: 340px;
+    height: 250px;
+  }
+  .collapse3-width {
+    width: 340px;
+    height: 540px;
+  }
+  .TV-images {
+    height: 430px;
+    width: 100%;
+    position: relative;
+    z-index: 1;
+  }
+  .tv-section > video {
+    position: absolute;
+    height: 60%;
+    width: 100%;
+    left: 71px;
+    bottom: 90px;
+  }
+  .width-email {
+    width: 310px !important;
+  }
+  .footer-height {
+    height: 750px;
+  }
+  .mobile-images {
+    height: 100%;
+    width: 100%;
+  }
+  .section-5 {
+    height: 540px;
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .section-4 {
+    height: 510px;
+  }
+  .desktop-images {
+    position: relative;
+  }
+  .desktop-images > img {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    z-index: 1;
+  }
+  .desktop-images > video {
+    position: absolute;
+    height: 55%;
+    width: 65%;
+    left: 60px;
+    bottom: 120px;
+  }
+  .section-2 {
+    height: 540px;
+  }
+  .section-1 {
+    height: 520px;
+  }
+  .TV-images {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    z-index: 1;
+  }
+  .tv-section > video {
+    position: absolute;
+    height: 100%;
+    width: 75%;
+    left: 44px;
+    bottom: 1px;
+  }
+}

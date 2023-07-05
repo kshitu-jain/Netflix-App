@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box;
+  margin: 0%;
+}
+.netflix-logo {
+  height: 40px;
+}
+
+.background-img {
+  background-image: linear-gradient(rgba(15, 0, 0, 0.898), rgba(0, 0, 22, 0.829)),
+    url("./bg-image.jpg");
+  height: 840px;
+  background-size: 100%;
+  background-position: center;
+}
+.release-font {
+  font-size: 15px;
+}
+.descript {
+  font-size: 18px;
+}
+.title-image {
+  height: 100px;
+  /* width: 900px; */
+}
+
+.fa-play {
+  position: absolute;
+  color: black;
+  bottom: 32px;
+  left: 30px;
+  z-index: 1;
+}
+.play-button {
+  position: relative;
+  padding-left: 38px;
+  padding-right: 30px;
+}
+.buttons {
+  position: relative;
+}
